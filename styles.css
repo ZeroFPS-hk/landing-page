@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+    padding: 0 20px;
+    background-color: #1F2937;
+}
+
+.hlogo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.hright{
+    display: flex;
+    gap: 20px;
+}
