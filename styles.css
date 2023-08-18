@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 ul{
@@ -31,5 +32,43 @@ a{
 
 .hright{
     display: flex;
-    gap: 20px;
+    gap: 24px;
+}
+
+.one{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #1F2937;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.one .title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.one .content{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bigimg{
+    width: 400px;
+    height: auto;
+}
+
+button{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 0;
 }
