@@ -35,11 +35,17 @@ a{
     gap: 24px;
 }
 
-.one{
+.one,
+.two,
+.three,
+.four{
     display: flex;
     flex: 1;
+    padding: 48px 24px;
+}
+
+.one{
     justify-content: space-around;
-    padding: 24px;
     background-color: #1F2937;
 }
 
@@ -71,4 +77,46 @@ button{
     padding: 8px 16px;
     border-radius: 10px;
     border: 0;
+}
+
+.two,
+.three,
+.four{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.two .title{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding-bottom: 36px;
+}
+
+.bigbox{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.imgbox{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.imgbox img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: 3px solid;
+    border-color: #3882F6;
+}
+
+.imgbox div{
+    text-align: center;
 }
