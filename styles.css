@@ -79,8 +79,7 @@ button{
     border: 0;
 }
 
-.two,
-.four{
+.two{
     flex-direction: column;
     justify-content: center;
 }
@@ -148,4 +147,44 @@ button{
     font-weight: bold;
     color: #1F2937;
     text-align: right;
+}
+
+.four{
+    justify-content: center;
+}
+
+.bluebox{
+    flex: 3;
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    padding: 16px 40px;
+    gap: 40px;
+}
+
+.bluebox .left{
+    gap: 10px;
+}
+
+.boxtitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.boxbody{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.bluebox .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluebox button{
+    border: 2px solid;
+    border-color: #F9FAF8;
+    font-size: 18px;
 }
