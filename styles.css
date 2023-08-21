@@ -78,11 +78,13 @@ button{
     padding: 8px 16px;
     border-radius: 10px;
     border: 0;
+    cursor: pointer;
 }
 
 .two{
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 60px;
 }
 
 .two .title{
@@ -123,6 +125,8 @@ button{
 .three{
     background-color: #E5E7EB;
     justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .space{
